@@ -1,0 +1,91 @@
+
+
+@font-face {
+
+    font-family: RockFont;
+  
+    src: url("funkrocker/Funkrocker.otf");
+  
+  }
+  
+  
+  
+  h4 {
+  
+    font-family: RockFont;
+  
+  }
+  
+  
+  .masthead {
+  
+    background: rgb(230, 221, 221);
+  
+    height: 5em;
+  
+  }
+  
+  .centeredText {
+  
+    text-align: center;
+  
+  }
+  
+  .site-title {
+  
+    color: white;
+  
+    font-family: RockFont;
+  
+    font-size: 80px;
+  
+    font-weight: bolder;
+  
+  }
+
+.card {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 165px;
+  height: 400px;
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  float: left;
+  margin: 5px;
+}
+
+.card img {
+  width: 60%;
+  height: 150px;
+}
+.card h4 {
+  font-family: RockFont;
+  font-size: 20px;
+  margin: 20px 0;
+  color: black;
+}
+
+.card p {
+  font-size: 12px;
+  color: black;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+@media screen and (max-width: 800px) {
+  .card {
+    width: 150px;
+    height: 350px;
+  }
+  .card img {
+    width: 80%;
+  }
+  .card h4 {
+    font-size: 15px;
+  }
+  .card p {
+    font-size: 10px;
+  }
+}
